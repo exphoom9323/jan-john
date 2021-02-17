@@ -1,0 +1,75 @@
+/*!
+ * Start Bootstrap - One Page Wonder (https://startbootstrap.com/template-overviews/one-page-wonder)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
+ */
+
+body {
+	padding-top: 54px;
+	font-family: 'Mitr', sans-serif;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+header.masthead {
+  background: url(../image/header.jpg)no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+header.masthead>.overlay {
+  padding: 5rem 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+@media (min-width: 992px) {
+  header.masthead>.overlay {
+    padding: 10rem 0;
+  }
+}
+.img-fluid{
+	font-family: 'Barlow Semi Condensed', kanit;
+	border-radius: 10px;
+}
+
+#myBtn {
+	color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#myBtn:hover {
+	color: white;
+    background: rgba(0, 0, 0, 0.9);
+}
+.img-fluid.animaPhoto{
+	padding-top: 20px;
+	padding-bottom: 25px;
+	-webkit-transition: .25s ease-in-out;
+	transition: .25s ease-in-out;
+}
+.img-fluid.animaPhoto:hover{
+	-webkit-transform: scale(1.35);
+	transform: scale(1.35);
+}
